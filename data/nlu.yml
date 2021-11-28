@@ -1,0 +1,125 @@
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - sveiks
+    - sveika
+    - sveiki
+    - sveiciens
+    - labrīt
+    - labvakar
+    - labdien
+    - čau
+    - čav
+    - kā iet
+    - Sveiks
+    - Sveiki
+- intent: goodbye
+  examples: |
+    - atā
+    - uz redzēšanos
+    - uz tikšanos
+    - tiksimies vēlāk
+- intent: affirm
+  examples: |
+    - jā
+    - tiešām
+    - patiešām
+    - protams
+    - izklausās labi
+    - pareizi
+- intent: deny
+  examples: |
+    - nē
+    - nekad
+    - nedomāju vis
+    - man tas nepatīk
+    - nevar būt
+    - ne gluži
+- intent: mood_great
+  examples: |
+    - perfekti
+    - ļoti labi
+    - lieliski
+    - vienreizēji
+    - pārsteidzoši
+    - brīnišķīgi
+    - jūtos ļoti labi
+    - klājas ļoti labi
+    - viss kārtībā
+- intent: mood_unhappy
+  examples: |
+    - skumji
+    - ļoti skumji
+    - nelaimīgs
+    - slikti
+    - nav labi
+    - ļoti slikti
+    - šausmīgi
+    - briesmīgi
+    - ne visai labi
+    - šausmīgi skumji
+    - tik skumji
+- intent: bot_challenge
+  examples: |
+    - vai tu esi bots?
+    - vai tu esi cilvēks?
+    - vai es runāju ar botu?
+    - vai es runāju ar cilvēku?
+    - vai es sarunājos ar botu?
+    - vai es čatoju ar botu?
+    - vai es sarunājos ar cilvēku?
+    - vai es runāju ar reālu personu?
+    - vai es čatoju ar robotu?
+    - vai tu esi īsta persona?
+    - vai tu esi īsts?
+    - vai tas ir cilvēks?
+    - vai tā ir īsta persona vai bots?
+    - ar ko es runāju?
+    - vai jūs esat īsts cilvēks?
+    - vai esi cilvēks
+- intent: bot_out_of_scope
+  examples: |
+    - Gribu gulēt
+    - Vai ir ziema?
+    - kāpēc es tagad skatos televizoru
+    - Cik dalībnieki drīkst būt nometnē
+    - Vai ir nākts
+    - Vai man vajag dzert vairāk vai mazāk
+    - Cik interesantus faktus par zemi tu zini?
+    - Vai plāno lidot uz Marsu
+    - Ko pagatavot pusdienās
+    - Kur aizbraukt
+    - Vai ir dzīve uz zemes
+    - Kādi ir laika apstākļi
+    - Ko tu darīji vakar
+- intent: i_am_good
+  examples: |
+    - Esmu malacis.
+    - Ļoti labi pastrādāju.
+    - Lepojos ar sevi.
+    - Tas bija tas, ko gribēju.
+    - Man ir garlaicīgi.
+- intent: talk_to_someone
+  examples: |
+    - Ko vari ieteikt?
+    - Varētu papļāpāt.
+    - Gribu, lai citi arī zinātu, ka esmu veiksmīgs.
+    - Nebūtu ne vainas.
+    - Nedomāju vis, bet var jau pamēģināt.
+- intent: need_help
+  examples: |
+    - Nekas.
+    - Kā tu to domā?
+    - Ko tu ar to gribi teikt?
+    - Negribu atcerēties.
+    - Negribu stāstīt.
+    - negribu stāstīt
+- intent: need_to_talk_to_someone
+  examples: |
+    - Vai zini kādu, kas man varētu palīdzēt?
+    - Speciālisti ir dārgi.
+    - Negribu, lai par mani smejas.
+    - Man tam nav laika.
+    - Negribu meklēt nekādus psihologus.
+    - Man nav tam laika

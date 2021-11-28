@@ -1,0 +1,65 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- mood_great
+- greet
+- bot_challenge
+- goodbye
+- affirm
+- deny
+- mood_unhappy
+- bot_out_of_scope
+- i_am_good
+- talk_to_someone
+- need_help
+- need_to_talk_to_someone
+responses:
+  utter_greet:
+  - text: Čau, kā Tev iet?
+  - text: Čau, prieks tevi dzirdēt
+  - text: Čau, kāds noskaņojums
+  utter_cheer_up:
+  - text: 'Attēls labam noskaņojumam:'
+    image: https://i.imgur.com/nGF1K8f.jpg
+  utter_did_that_help:
+  - text: Vai tas palīdzēja?
+  utter_happy:
+  - text: Forši, ta turpini!
+  - text: Priek Tev palīdzēt!
+  utter_goodbye:
+  - text: Čau
+  - text: Visu labu!
+  - text: Līdz nākami reizei!
+  utter_iamabot:
+  - text: Es esmu bots, Rasa izveidoja mani, lai es būtu Tev noderīgs.
+  utter_sad:
+  - text: Man ļot žel...
+  utter_out_of_scope:
+  - text: Nesapratu, vai vari lūdzu atkārtot?
+  - text: Atkārto lūdzu, es esmu tikai bots un vēl mācos
+  utter_i_am_good:
+  - text: Vai vēlies ar kādu aprunāties?
+  utter_talk_to_someone:
+  - text: Iesaku atbalsta tālruni "Parunāsim" 26 564 564.
+  utter_talk_to_skalbe:
+  - text: Krīžu un konsultāciju centra Skalbes diennakts tālruņi 67 222 922 vai 27 722 292. Info, ar ko vēl vari sazināties, lai atgūtu mieru (https://www.liepaja.lv/uzzini-kur-var-versties-pec-palidzibas-lai-atgutu-emocionalo-mieru/)
+  utter_do_you_need_help:
+  - text: Kas tev iepriekš ir palīdzējis tikt galā ar līdzīgām grūtībām?
+
+actions:
+- newsletter_form
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_iamabot
+- utter_sad
+- utter_i_am_good
+- utter_talk_to_someone
+- utter_do_you_need_help 
+- utter_talk_to_skalbe
+- action_talk_to_skalbe
+
